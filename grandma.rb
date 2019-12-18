@@ -11,13 +11,13 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-def no = "NO, NOT SINCE 1938!"\
+def no_1938 = "NO, NOT SINCE 1938!"\
 
 def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   elsif phrase == "WHAT?" "WHAT DID YOU EAT TODAY?"
-    return no
+    return no_1938
   else phrase == ""
     return "HUH?! SPEAK UP, SONNY!"
   end
